@@ -1,0 +1,102 @@
+html,
+body {
+  font-family: "微软雅黑";
+}
+.bar.bar-nav {
+  background: #a70200;
+  height: 50px;
+}
+.bar.bar-nav .bar_v {
+  position: fixed;
+  left: 0;
+  top: 50px;
+}
+.bar.bar-nav h1 {
+  color: white;
+  line-height: 50px;
+  font-size: 20px;
+}
+.content {
+  position: absolute;
+  top: 20px;
+}
+.content .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.content .btns .btn {
+  width: 120px;
+  height: 50px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 10px;
+  font-size: 20px;
+  font-family: "微软雅黑";
+}
+.content .btn.g {
+  background: #dedede;
+}
+.content .lin {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.content .lin span {
+  width: 120px;
+  line-height: 50px;
+  color: gray;
+  font-size: 22px;
+}
+.content .lin input.shu {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 50px;
+}
+.content .lin .ll {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  line-height: 50px;
+}
+.content .lin .ll .mm {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 16px;
+}
+.content .lin .ll .wj {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  line-height: 50px;
+  color: gray;
+}
+.content .btn.btn-negative.btn-block {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #d5190f;
+  font-size: 22px;
+  font-family: "微软雅黑";
+  margin-top: 50px;
+}
+.content .btn.btn-negative.btn-block .zhuc {
+  position: absolute;
+  top: 70px;
+  font-size: 18px;
+  color: red;
+}
+
+/*# sourceMappingURL=dingdan.css.map */

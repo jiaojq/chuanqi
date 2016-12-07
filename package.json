@@ -1,0 +1,19 @@
+{
+  "name": "chuanqi",
+  "version": "1.0.0",
+  "description": " ",
+  "main": "index.js",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-less": "^3.3.0",
+    "gulp-sourcemaps": "^1.9.1",
+    "jquery": "^3.1.1",
+    "ratchet": "^0.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

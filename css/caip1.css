@@ -1,0 +1,67 @@
+html,
+body {
+  font-family: "微软雅黑";
+}
+header.bar.red.top {
+  height: 50px;
+}
+header.bar.red.top .bai {
+  color: white;
+  line-height: 50px;
+}
+.content {
+  position: absolute;
+  top: 60px;
+  bottom: 60px;
+}
+.content .table-view:first-child {
+  margin-top: -40px;
+}
+.content .table-view .media,
+.content .table-view .media-body {
+  font-size: 24px;
+  line-height: 28px;
+}
+.content .table-view .media .btn,
+.content .table-view .media-body .btn {
+  width: 70px;
+  height: 40px;
+  color: white;
+  background: #fdba11;
+  font-size: 16px;
+  border: 0;
+}
+.content .table-view-cell p {
+  margin-bottom: 0;
+  width: 130px;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: black;
+}
+img.bar_v {
+  height: 10px;
+  width: 100%;
+  position: fixed;
+  top: 50px;
+  left: 0;
+}
+img.bar_s {
+  height: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 60px;
+  left: 0;
+}
+nav.bar.bar-tab.di {
+  height: 60px;
+  background: black;
+}
+nav.bar.bar-tab.di span.icon.icon-search.foot1 {
+  background: url(../image/foot4.png);
+  width: 30px;
+}
+nav.bar.bar-tab.di span.icon.icon-search.foot1 .tab-item.active {
+  background: #a70200;
+}
+
+/*# sourceMappingURL=caip1.css.map */
