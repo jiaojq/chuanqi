@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+			#box{
+				display: flex;
+				width: 100%;
+				height: 650px;
+				border: 1px solid #000000;
+				flex-direction: column;
+			}
+			
+			.wrap{
+				flex: 1.4;
+				background: url(img/beijing.jpg);
+				position: fixed;
+				z-index: 2;
+				width: 100%;
+				height: 15%;
+				margin: 0;
+				
+			}
+			.a1{
+				flex: 0.1;
+				background:url(img/tou.jpg);
+				padding-top: 27%;
+			}
+			.wrap a{
+				font-size: 52px;
+				color: white;
+			}
+			.wrap p{
+				text-align: center;
+				line-height: 80px;
+			}
+			.imgsz{
+			    position: absolute;
+			    top: 23px;
+			    left: 20px;
+			}
+			
+			.naw{
+				flex: 7;
+				position: relative;
+			}
+			
+			.naw1{
+				width:100%;
+				height:24%;
+				border-bottom:1px solid #AAAAAA;
+				position: relative;
+			}
+			.naw1 img{
+				padding: 18px;
+				float: left;
+				
+			}
+			.clyc{
+				width: 70%;
+				font-family: "宋体";
+				padding-top: 27px;
+				line-height: 32px;
+				color: #444;
+			}
+			.dj{
+				width: 70%;
+				font-family: "宋体";
+				line-height: 32px;
+				color: #777;
+			}
+			.yd{
+				width: 16%;
+				height: 32px;
+				background: url(img/aa.png);
+				font-size: 18px;
+				color: white;
+				border: none;
+				border-radius: 7px;
+				position: absolute;
+				right: 10px;
+				top: 40%;
+			}
+			.clear{
+			  clear: both;
+			}
+			.a2{
+				flex: 0.1;
+				background: url(img/tou.jpg);
+			}
+			.footer{
+				flex: 1.4;	
+			}
+			.footer nav ul li {
+				list-style: none;
+			}
+			
+			.footer {
+				width: 100%;
+				height: 80px;
+				-webkit-box-sizing: border-box;
+				margin-top: 30px;
+				background: #000;
+				position: fixed;
+				bottom: 0;
+			}
+			
+			.footer nav {
+				width: 100%;
+				text-align: center
+			}
+			
+			.footer nav ul {
+				display: -webkit-box;
+			}
+			
+			.footer nav ul li {
+				-webkit-box-flex: 1;
+				color: #fff;
+				padding-top: 10px;
+			}
+			
+			.footer nav ul li a {
+				display: block;
+				display: -webkit-box;
+				-webkit-box-pack: center;
+				-webkit-box-sizing: border-box
+			}
+			
+			.footer nav ul li a img {
+				width: 80%;
+				padding-bottom: 5px;
+			}
+			li:hover{
+				background: red;
+			}
+			
+
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<div class="ssss"></div>
+			<div class="wrap">
+			<p><a>折扣专区</a></p>
+			<div class="imgsz"><img src="img/指引针.jpg"/></div>
+			</div>
+			<div class="a1"></div>
+			<div class="naw">
+					
+				
+				<div class="naw1">
+				   <img src="img/菜单.jpg"/>
+				   <h3 class="clyc">香辣鸭唇</h3>
+				   <h4 class="dj">单价 ：56元/例</h4>
+				   <h5 style="font-size: 19px; color: red;">现价：49元/例</h5>
+				   <button class="yd">抢购</button>
+				</div>
+				<div class="clear"></div>
+				<div class="naw1">
+					<img src="img/2.jpg" style="height: 80px; width: 98px;"/>
+				   <h3 class="clyc">酸奶水果</h3>
+				   <h4 class="dj">单价:16元/例</h4>
+				   <h5 style="font-size: 19px; color: red;">现价：15元/例</h5>
+				   <button class="yd">抢购</button>
+				</div>
+				<div class="clear"></div>
+				<div class="naw1">
+					<img src="img/3.jpg" style="height: 80px; width: 98px;"/>
+				   <h3 class="clyc">酸辣榨菜鱼</h3>
+				   <h4 class="dj">单价 ：38元/例</h4>
+				   <h5 style="font-size: 19px; color: red;">现价：30元/例</h5>
+				   <button class="yd">抢购</button>
+				</div>
+				<div class="clear"></div>
+				<div class="naw1">
+					<img src="img/4.jpg" style="height: 80px; width: 98px;"/>
+				   <h3 class="clyc">馋嘴蛙</h3>
+				   <h4 class="dj">单价 ：48元/例</h4>
+				   <h5 style="font-size: 19px; color: red;">现价：40元/例</h5>
+				   <button class="yd">抢购</button>
+				</div>
+			</div>
+			<div class="a2"></div>
+			<div class="footer">
+				<nav>
+				<ul>
+                    <li  style="background:darkred;"><a href="#"><img src="img/11.png"/> </a>首页 </li>
+                    <li><a href="#"><img src="img/12.png"/> </a>附近</li>
+                    <li><a href="#"><img src="img/13.png"/> </a>订单</li>
+                    <li><a href="#"><img src="img/14.png"/> </a>更多</li>
+                </ul>
+			</nav>
+			</div>
+		</div>
+	</body>
+</html>
